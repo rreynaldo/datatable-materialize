@@ -204,14 +204,14 @@ div.material-table table th.sorting_desc:after {
     -webkit-font-smoothing: antialiased;
     content: "arrow_back";
     -webkit-transform: rotate(90deg);
-    display: none;
+    visibility: hidden;
     vertical-align: middle;
 }
 
 div.material-table table th.sorting:hover:after,
 div.material-table table th.sorting_asc:after,
 div.material-table table th.sorting_desc:after {
-    display: inline-block;
+    visibility: visible;
 }
 
 div.material-table table th.sorting_desc:after {
